@@ -1,0 +1,42 @@
+step 01:
+# installs nvm (Node Version Manager)
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+step 02:
+# download and install Node.js (you may need to restart the terminal)
+$ nvm install 23
+
+step 03:
+# verifies the right Node.js version is in the environment
+node --version # should print `v23.3.0`
+# verifies the right npm version is in the environment
+npm --version # should print `10.9.0`
+
+step 04:
+$ npm install -g yarn
+
+# this create-react-app is old technology which contains a unnecessary files and above 248M
+# I recomend to install vite
+step 05:
+$ npx create-react-app myreact && mv myreact React
+
+# Linting Setup
+step 06:
+# Install Dev Dependencies
+$ yarn add -D prettier
+$ yarn add -D babel-eslint
+$ npx install-peerdeps --dev eslint-config-airbnb
+$ yarn add -D eslint-config-prettier eslint-plugin-prettier
+
+# if you want install those in one command
+# got package.json file and add it 
+scripts: {
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+}
+
+step 07:
+$ yarn lint #or 'npm run lint'
+
+# create .eslintrc Configuration file manually
+# go to those link https://github.com/learnwithsumit/think-in-a-react-way/tree/lesson-3?tab=readme-ov-file#create-linting-configuration-file-manually
+

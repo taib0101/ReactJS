@@ -1,0 +1,13 @@
+1. Auto Close Tag
+2. Auto Import-ES6, TS, JSX, TSX
+3. Auto Rename Tag
+4. ESLint ( it solve JS Error )
+5. npm Intellisense
+6. Path Intellisense
+7. Prettier
+8. ReactJS Code snippets
+9. Snipped Screen Shot
+10. StyleLint
+11. Tailwind CSS Intellisense
+12. Thunder Client ( it is like POSTMAN )
+13. VSCode Icons
