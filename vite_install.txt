@@ -1,7 +1,7 @@
 # vite is asset bundle of REACT 
 
 step 01:
-# installs nvm (Node Version Manager)
+# install nvm (Node Version Manager)
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
 step 02:

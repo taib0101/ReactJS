@@ -1,0 +1,24 @@
+* Babel: Babel converts modern JavaScript and JSX into code that works in all browsers.
+
+# suppose JSX formet 
+const jsxElement = <h1 className="one"> Bro, What's up </h1>
+
+# babel convert it like this 
+const jsxElement = React.createElement("h1", { className: "one" }, "Bro, What's up");
+/*
+    React.createElement(type, [props], [...children])
+    *type as tag,
+    *props as properties like class, id, style etc
+    *children as innerHTML or innerText or other elements
+*/
+
+# javascript make it DOM
+/*
+    const jsxElement = {
+	     type: "h1",
+	     props: {
+		className: "one",
+		children: "Bro, What's up"
+	     }
+	}
+*/

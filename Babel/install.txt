@@ -1,0 +1,12 @@
+* CDN: <script src="https://unpkg.com/@babel/standalone/babel.min.js"> </script>
+
+* nstall Babel CLI and the required preset
+step 01: npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react
+step 02: Create a Babel configuration file called .babelrc in the project root. and configure file
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+step 03: Transpile the File with Babel
+npx babel index.jsx --out-file index.js
