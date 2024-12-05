@@ -14,6 +14,8 @@ class Counter extends React.Component {
     this.state = { counter: 0 };
   }
 
+  // when you use event Handle and make as function reference use arrow function for "this keyword"
+  // for better understand see "Handling Event directory"
   incrementCounter = () => {
     // batch update 
     this.setState((state, props) => ({
