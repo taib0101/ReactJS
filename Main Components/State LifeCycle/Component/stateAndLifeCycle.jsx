@@ -11,12 +11,12 @@ class ClassComponent extends React.Component {
 
   pick() {
     this.setState({
-      date: new Date() // not for date + 10 , see batch update
+      date: new Date(), // not for date + 10 , see batch update
     });
   }
 
   componentDidMount() {
-    this.var = setInterval(() => this.pick(), 1000); 
+    this.var = setInterval(() => this.pick(), 1000);
   }
 
   componentWillUnmount() {
@@ -25,9 +25,11 @@ class ClassComponent extends React.Component {
 
   render() {
     return (
-      <div className="column">
-        <h1> {this.state.date.toLocaleTimeString(this.props.locale)} </h1>
-      </div>
+      <>
+        <div className="column">
+          <h1> {this.state.date.toLocaleTimeString(this.props.locale)} </h1>
+        </div>
+      </>
     );
   }
 }

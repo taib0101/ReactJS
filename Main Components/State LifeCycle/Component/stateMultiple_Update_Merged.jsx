@@ -38,8 +38,12 @@ class Blog extends React.Component {
   }
 
   render() {
-    console.log("bro : ",this.state.posts);
-    return <h1> {this.state.posts} </h1>;
+    console.log("bro : ", this.state.posts);
+    return (
+      <>
+        <h1> {this.state.posts} </h1>{" "}
+      </>
+    );
   }
 }
 

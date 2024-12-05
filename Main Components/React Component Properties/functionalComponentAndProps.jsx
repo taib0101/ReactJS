@@ -11,10 +11,12 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 // Method 01:
 const component_with_variableProps = (name) => {
   return (
-    <div>
-      <h1> Hi, </h1>
-      <h1> {name} </h1>
-    </div>
+    <>
+      <div>
+        <h1> Hi, </h1>
+        <h1> {name} </h1>
+      </div>
+    </>
   );
 };
 root.render(component_with_variableProps("taib"));
@@ -22,13 +24,15 @@ root.render(component_with_variableProps("taib"));
 // Method 02: This is latest method, try to apply this
 const Component_with_objectProps = ({ name }) => {
   return (
-    <div>
-      <h1> Hi, </h1>
-      <h1> {name} </h1>
-    </div>
+    <>
+      <div>
+        <h1> Hi, </h1>
+        <h1> {name} </h1>
+      </div>
+    </>
   );
 };
 
 // <Component_with_objectProps name="taib"/> this is JSX
 // and it send object as argument
-root.render(<Component_with_objectProps name="Taib"/>);
+root.render(<Component_with_objectProps name="Taib" />);

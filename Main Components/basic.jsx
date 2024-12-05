@@ -14,9 +14,15 @@ root.render([element2, element3]);
 // method 03:
 // to see more about React Component goto React Component Properties/functionaleCompnentAndProps
 const Element4 = () => {
-    return <h1> Forth Line </h1>;
-}
+  // use <> </> when multiple element exists
+  return (
+    <>
+      <h1> Forth Line </h1>
+      <h1>okay</h1>
+    </>
+  );
+};
 
-root.render(<Element4 />)
+root.render(<Element4 />);
 // or
-root.render(<Element4></Element4>)
+root.render(<Element4></Element4>);

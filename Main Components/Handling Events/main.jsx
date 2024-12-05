@@ -6,10 +6,12 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 // Functional React Component
 const FunctionalComponent = () => {
   return (
-    <div className="row">
-      <OnSubmit />
-      <OnSubmitForThis />
-    </div>
+    <>
+      <div className="row">
+        <OnSubmit />
+        <OnSubmitForThis />
+      </div>
+    </>
   );
 };
 

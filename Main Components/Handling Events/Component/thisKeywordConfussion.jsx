@@ -36,10 +36,12 @@ class OnSubmitForThis extends React.Component {
   render() {
     const { locale } = this.state;
     return (
-      <form onSubmit={this.handleSubmit}>
-        <h1>{this.state.date.toLocaleTimeString(locale)}</h1>
-        <button type="submit">Submit for time change</button>
-      </form>
+      <>
+        <form onSubmit={this.handleSubmit}>
+          <h1>{this.state.date.toLocaleTimeString(locale)}</h1>
+          <button type="submit">Submit for time change</button>
+        </form>
+      </>
     );
   }
 }

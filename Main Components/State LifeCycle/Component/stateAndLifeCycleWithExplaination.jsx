@@ -36,13 +36,13 @@ class ClassComponent extends React.Component {
   pick() {
     // when setState() method call it will re-render and react will re-react
     this.setState({
-      date: new Date()
+      date: new Date(),
     });
   }
 
   componentDidMount() {
     // custom variable
-    this.var = setInterval(() => this.pick(), 1000); // this is resource hungry, and take memory when route changes 
+    this.var = setInterval(() => this.pick(), 1000); // this is resource hungry, and take memory when route changes
   }
 
   // when route change and unmount this.var will off setInterval
@@ -52,9 +52,11 @@ class ClassComponent extends React.Component {
 
   render() {
     return (
-      <div className="column">
-        <h1> {this.state.date.toLocaleTimeString(this.props.locale)} </h1>
-      </div>
+      <>
+        <div className="column">
+          <h1> {this.state.date.toLocaleTimeString(this.props.locale)} </h1>
+        </div>
+      </>
     );
   }
 }

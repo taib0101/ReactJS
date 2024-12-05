@@ -16,10 +16,12 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 class component1 {
   print(name) {
     return (
-      <div>
-        <h1> Hi, </h1>
-        <h1> {name} </h1>
-      </div>
+      <>
+        <div>
+          <h1> Hi, </h1>
+          <h1> {name} </h1>
+        </div>
+      </>
     );
   }
 }
@@ -30,11 +32,13 @@ root.render(object1.print("murtaza"));
 class Component2 extends React.Component {
   render() {
     return (
-      <div>
-        <h1> Hi, </h1>
-        <h1> Children: {this.props.children}</h1>
-        <h1> Props: {this.props.name} </h1>
-      </div>
+      <>
+        <div>
+          <h1> Hi, </h1>
+          <h1> Children: {this.props.children}</h1>
+          <h1> Props: {this.props.name} </h1>
+        </div>
+      </>
     );
   }
 }
