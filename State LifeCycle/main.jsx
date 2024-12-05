@@ -1,5 +1,7 @@
 import ReactDOM from "react-dom/client";
-import ClassComponent from "./Component/clock.jsx";
+import ClassComponent from "./Component/stateAndLifeCycle.jsx";
+import Counter from "./Component/stateBatchUpdate.jsx";
+import Blog from "./Component/stateMultiple_Update_Merged.jsx";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
@@ -7,7 +9,13 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 const FunctionalComponent = () => {
   return (
     <div className="row">
-      <ClassComponent />
+      <h1>State and LifeCycle Method</h1>
+      <ClassComponent locale="en-BD" />
+
+      <h1>Batch Update of State</h1>
+      <Counter increment="1" />
+
+      <Blog />
     </div>
   );
 };

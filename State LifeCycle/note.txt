@@ -1,0 +1,3 @@
+* State is used to store values, that can change after the component is initially rendered.
+* State is a data of React Component
+* State is a JavaScript Object

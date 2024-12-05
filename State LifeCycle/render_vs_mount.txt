@@ -1,0 +1,15 @@
+Render:
+-------
+
+1. It refers to "draw" to UI
+2. It creates UI design(Virtual DOM) for components
+3. It happens when component added or updated
+4. Doesn't touch real DOM Directly
+
+Mount:
+------
+
+1. It refers to "Put rendered elements" to drawn UI
+2. it add rendered elements to the real DOM for first time
+3. it happens when component first loaded
+4. In React.Component class "componentDidMount()" method are called during mount time

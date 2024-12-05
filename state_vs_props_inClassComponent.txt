@@ -1,0 +1,17 @@
+State:
+------
+1. Managed within the component (this.state).
+2. Updated using this.setState.
+3. Used for dynamic, changing data.
+4. use state inside class component's methods
+5. value can be add and changed inside class component's methods
+6. to know more details goto ./State LifeCycle
+
+Props:
+------
+1. Passed to the component (this.props).
+2. Read-only; cannot be modified by the component.
+3. Used to pass data and functions from parent to child components.
+4. use state outside class compnent 
+5. value are set from outside class component
+6. to know more details goto ./React Component Properties/classComponentAndProps
