@@ -11,7 +11,7 @@ const element3 = <h1 className="one"> Third Line</h1>;
 
 root.render([element2, element3]);
 
-// method 03:
+// method 03: use this type method for all the time
 // to see more about React Component goto React Component Properties/functionaleCompnentAndProps
 const Element4 = () => {
   // use <> </> when multiple element exists

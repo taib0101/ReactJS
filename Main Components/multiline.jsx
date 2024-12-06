@@ -1,10 +1,12 @@
-// use first parenthesis for multiline element
+// use first parenthesis and "<></>" for multiline element
 
 const element1 = (
-  <div>
-    <h1>First Line</h1>
-    <h1>Second Line</h1>
-  </div>
+  <>
+    <div>
+      <h1>First Line</h1>
+      <h1>Second Line</h1>
+    </div>
+  </>
 );
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
