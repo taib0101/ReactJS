@@ -4,6 +4,7 @@ class StateFullConditionalReRender extends React.Component {
   // Initial state.bool for helping render component
   state = { bool: false };
 
+  // see Main Component/Controll reRendering/thisKeyword.jsx for more details
   change = (event) => {
     event.preventDefault();
 
