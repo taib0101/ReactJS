@@ -1,0 +1,11 @@
+
+
+                    
+                calculator
+                    /\
+                   /  \
+    TemperatureInput   TemperatureInput
+
+
+1. React follow top down approach
+2. Lifting state contains more boilerplate and easy bug fix
