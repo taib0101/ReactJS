@@ -22,12 +22,12 @@ const component_with_variableProps = (name) => {
 root.render(component_with_variableProps("taib"));
 
 // Method 02: This is latest method, try to apply this
-const Component_with_objectProps = ({ name }) => {
+const Component_with_objectProps = (props) => {
   return (
     <>
       <div>
         <h1> Hi, </h1>
-        <h1> {name} </h1>
+        <h1> {props.name} </h1>
       </div>
     </>
   );
