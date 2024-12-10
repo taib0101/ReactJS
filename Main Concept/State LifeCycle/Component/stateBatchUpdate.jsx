@@ -18,8 +18,8 @@ class Counter extends React.Component {
   // for better understand see "Handling Event directory"
   incrementCounter = () => {
     // batch update
-    this.setState((state, props) => ({
-      counter: state.counter + parseInt(props.increment),
+    this.setState((previousState, props) => ({
+      counter: previousState.counter + parseInt(props.increment),
     }));
   };
 
