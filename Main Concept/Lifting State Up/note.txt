@@ -9,3 +9,4 @@
 
 1. React follow top down approach
 2. Lifting state contains more boilerplate and easy bug fix
+3. It need to implement this method of lifting state up in large and complex UI

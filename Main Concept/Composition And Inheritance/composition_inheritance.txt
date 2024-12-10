@@ -1,0 +1,4 @@
+* Inheritance of nested makes code complex for maintanance . React says using 
+  using nested Inheritance is not good practice
+
+* React Says to use Composition. Composition means Component return value to it's children. goto main.jsx
