@@ -1,0 +1,8 @@
+* Use Render Props when you need to customize how a component renders something.
+* Use HOC when you want to reuse logic across multiple components.
+
+* Render Props and HOCs (Higher-Order Components) can sometimes 
+lead to overly complex or less readable code, 
+especially if they are deeply nested or overused. 
+Modern React encourages the use of hooks (like useState, useEffect, useContext) 
+as a cleaner and more manageable alternative for reusing logic across components.
