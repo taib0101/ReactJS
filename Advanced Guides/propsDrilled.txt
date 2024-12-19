@@ -1,0 +1,13 @@
+HOC and Render Props prevent for reuses same logic of different component.
+But those can't prevent props drill . 
+props drill means that you assign props from ComponentA, ComponentA passed props to ComponentB,
+ComponentB passed props to ComponentC, ComponentC passed props to ComponentD. 
+
+but we need to passed ComponentA to CompnentB. which is unnecessary or passing props 
+thorough ComponentC and ComponentD. which HOC and RENDER PROPS can't prevent it.
+
+
+BUT USECONTEXT of Hook method can prevent PROPS DRILLING
+
+GOTO Hook/UseContext directory to see more details
+
