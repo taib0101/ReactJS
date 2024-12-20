@@ -1,0 +1,27 @@
+* We know 
+	** Render JSX Code
+	** React Manage State and Props
+	** Reacts to Events / Inputs
+	** Evaluating state / props change and re-render
+
+* so, beside 4 things as like avobe is Side Effect. We have to handle 
+  Side Effect by using useEffect
+	** Fetching Data from any API
+	** Update Documents like tab's title or DOM
+	** setting any subcripsions and timers
+
+* side effects in class component are
+	** componentDidMount(), ** componentWillUnMount()
+	** componentDidUpdate()
+
+* problems side effect in class component are
+	** Repeating Code
+	** Unorganized
+    # Use useEffect Hook to prevent problems
+
+* advantage 
+	** help us perform side effects in function component
+	** solve all problems of lifeCycle methods in class component
+	** replace componentDidMount()
+	 ** componentWillUNmount()
+	 ** componentDidUpdate() 
