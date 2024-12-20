@@ -1,0 +1,7 @@
+* Hooks are optional and classes won't be remove from react
+
+* Hooks can't be use in Class component
+
+* It provides a more direct API to the react Concepts
+
+* Always use Hooks in function and Top level in Function
