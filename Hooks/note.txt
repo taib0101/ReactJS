@@ -5,3 +5,14 @@
 * It provides a more direct API to the react Concepts
 
 * Always use Hooks in function and Top level in Function
+
+
+Differences: 
+useContext(): Prevents props drilling in Multiple Components
+
+useEffect(): Prevents running side effects on every render by allowing you to specify dependencies that control when the effect should run.
+It helps like lifeCycle in Class Component.
+
+useMemo(): Prevents recalculating expensive computations on every render by memoizing the result and only recalculating when dependencies change.
+
+useCallback(): Prevents recreating functions on every render by memoizing the function and only recreating it when dependencies change.

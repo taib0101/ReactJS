@@ -1,0 +1,29 @@
+*  React.memo(), useCallback() and useMemo() that doesn't help any functionality 
+    but it helps for performance of Memory
+
+# React.memo()
+    * it prevent component re-renders;
+    * React.memo() is not a hook
+    * React.memo() works similarly to shouldComponentUpdate() lifeCycle in Class Component
+    * React.memo() will re-render, when props are changed
+
+# React.useMemo()
+    * it doesn't prevent component re-renders;
+        for unchanged value.
+    * It remember a "functional Return Value" and it will recalcualte, re-render 
+        and will forget previous one the "Value of premitive or reference" 
+        when it depends to any Variable Dependencies
+        React.useMemo(function, [Variable Dependencies]);
+
+# React.useCallback()
+    * it doesn't prevent component re-renders;
+        for unchanged value.
+    * It remember a "callback" and it will recalcualte, re-render 
+        and will forget previous one the "Value of premitive or reference" 
+        when it depends to any Variable Dependencies
+        React.useMemo(function, [Variable Dependencies]);
+    
+    * NOTE: when you can't prevent unNecesary re-render for "event handler" by using Raect.memo()
+        use React.useCallback()
+
+# see also React.useContext()
