@@ -1,0 +1,9 @@
+* Note: Do not use DOM in React. Because React controlls the DOM.
+* But we have to work DOM related work in React. to controll DOM we use useEffect() nad useRef().
+
+* useRef() : it refers to create a reference for html tag 
+             to interact with the DOM or store values without causing re-renders.
+
+* forwardRef() : it refers to send reference of html tags from Parent to Child Component
+
+* useRef as Storage: after making variable of useRef(). you can make storage variable by "refVariable.current"
