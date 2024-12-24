@@ -1,8 +1,15 @@
 # useState() 
 	* we use UseState, when maximum state number is 3 . 
 	* In big Application "success and error event handle" are problematic when , you use useState().
+	* For premitive type like String, Number, Boolean, use useState()
+	* In application there have complex logic, don't use useState()
+	* If state data is Local Scope, use useState()
+	
 	
 	
 # useReducer()
 	* we use UseReducer, when state number is greater then 3.
 	* In big Application "success and error event handle" are not problematic when , you use useState().
+	* For reference type like Object, Array use useReducer()
+	* In application there have complex logic, use useReducer()
+	* If state data is Global Scope, use useReducer()
