@@ -1,0 +1,124 @@
+# Note: Don't play DOM Elements in React, beacuse react already works on it.
+        use DOM related work like document.title etc and use BOM also . in React.useEffect()
+        " ***** sign is more important to use in React"
+
+# Topics: 
+    # Main Concept
+        * basic.jsx
+
+        * multiline.jsx
+
+        *****
+        * React Component Props And Props Children
+            * classComponent_PropsAndPropsChildren.jsx
+            * functionalComponent_PropsAndPropsChildren.jsx
+        
+        *****
+        * Sending Callback As Props
+            * button.jsx
+            * click.jsx
+
+        *****
+        * Interpolation
+            * basic.jsx
+            * classInterpolation.jsx
+            * conditionalInterpolation.jsx
+            * functionInterpolation.jsx
+            * loopMapInterpolation.jsx
+            * nestedInterpolation.jsx
+
+        *****
+        * List And Keys
+            * listAndKeysUsingMapLikeLoop.jsx
+
+        * State LifeCycle
+            * stateAndLifeCycle.jsx
+            * stateAndLifeCycleWithExplaination.jsx
+            * stateBatchUpdate.jsx
+            * stateMultiple_Update_Merged.jsx
+        
+        *****
+        * Conditional Rendering
+            * propsComponent_ConditionalReRender.jsx
+            * stateFullComponent_ConditionalReRender.jsx
+
+        *****
+        * Form
+            * form.jsx
+            * input_text_textarea.jsx
+            * multipleCheckbox.jsx
+            * number.jsx
+            * selectOptionTag.jsx
+        
+        *****
+        * Handling Events
+            * formOnSubmitPreventDefault.jsx
+            * thisKeywordConfussion.jsx
+        
+        * Lifting State Up
+            * calculator_with_liftingStateUp.jsx
+            * temperatureInput.jsx
+
+        * Composition and Inheritance
+            * composition.jsx
+            * nestedComposition.jsx
+
+    # Advanced Geuides
+        * Higher Order Component
+            * higherOrderComponent_HOC.jsx
+        
+        * Render Props
+            * RenderProps.jsx
+        
+        * Note: use Hook useContext() .
+
+    *****
+    # Hooks
+        * Use Context (prevent props drills and send props chain component)
+            * Create and Use Context
+                * component1_createContext_providerContext.jsx
+                * component2.jsx
+                * component3_useContext_consumerContext.jsx
+                * contextMain.jsx
+        
+        # initiate and upadte value
+        * Use State 
+            * setArray.jsx
+            * setObjectVariable.jsx
+            * setPreviousState.jsx
+            * setSingleVariable.jsx
+        
+        * Use Reducer 
+            * useReducer_setUpdate_PremitiveValue.jsx
+            * useReducer_setUpdate_objectValue.jsx
+            * useReducer_multiple.jsx
+
+        ## For Memory performance
+        * Memo UseCallback UseMemo
+            * memo.jsx
+            * UseCallback.jsx
+            * UseMemo.jsx
+
+        # side effect and LifeCycle
+        * Use Effect
+            * useEffectCleanUP_saveMemory.jsx (example setInterval and time)
+            * useEffectConditionalRender.jsx
+            * useEffectEveryRender.jsx
+            * useEffectOnlyOnce.jsx
+        
+        # DOM Elements Reference
+        * UseRef  ForwardRef UseRefAsStorage
+            * useRef.jsx
+            * frowardRef.jsx
+            * useRef_asStorage_cleanUpMemory.jsx
+
+        * Custom Hook
+            * customHooks.jsx
+
+# Note: Don't use React v1.0.
+    * Complex states
+    * LifeCycle Methods in class Component
+    * sharing same logic
+    * duplicate
+
+# Note: Use Hooks . this react v2.0
