@@ -14,7 +14,7 @@ export const ConditionalRender = () => {
   }, [count]);
   // The [count] dependency in useEffect triggers the function whenever 'count' changes, such as on a click event or a prop change.
   // it dependes on variable dependices like [count]
-  // The dependency array can include any kind of value (primitive or reference) inside or outside of useEffect(),
+  // The dependency array can include any kind of value (primitive or reference).
   // see also React.memo(), React.useMemo(), React.useCallback()
   // see also Custom Hook
 
