@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-box {
+    border: 2px solid;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.h1 {
+    color: brown;
+}

@@ -11,3 +11,4 @@
 11. Tailwind CSS Intellisense
 12. Thunder Client ( it is like POSTMAN )
 13. VSCode Icons
+14. vscode-styled-components (this extension make easy for styled-components in react third party library)

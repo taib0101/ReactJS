@@ -1,0 +1,6 @@
+# style-components is third party library which converts js to css properties.
+
+# styled-components returns object of html elements like 'div, p, span'
+
+
+# install : " $ npm install styled-components"
