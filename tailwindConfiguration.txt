@@ -1,0 +1,45 @@
+* $ npm init -y
+* $ npm i -D tailwindcss
+
+* Install tailwind plugin on vs extension
+
+* $ npx tailwind init
+
+* create src and output directory. 
+* create file src/tailwind.css .
+
+* write this 3 line code on src/tailwind.css .
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$
+$ @tailwind base;
+$ @tailwind components;
+$ @tailwind utilities; 
+$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+* create .vscode/settings.json. and write this on .vscode/settings.json
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$ {
+$      "css.validate" : false;
+$      "tailwindCSS.emmetCompletions": true;
+$ }
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+* write on package.json
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$ {
+$      "scripts": {
+$           "build": "tailwindcss -i ./src/tailwind.css  -o ./output/tailwind.css -w "
+$       } // -i flag is for input to ./src/tailwind.css
+        // -o flag output for ./output.tailwind.css -
+        // -w flag for watch . means when we update ./src/tailwind.css automatically build for using "-w"
+$ }
+
+* link to index.html file
+|----------------------------------------------------------------------
+|   <head>
+|           <link rel="styleesheet" href="./output/tailwind.css" />
+|   </head>
+|-----------------------------------------------------------------------
+
+* $ npm run build
