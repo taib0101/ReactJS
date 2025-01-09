@@ -7,7 +7,7 @@
 * goto tailwind.config.js , write below
 ###################################
 # export default {
-# content: ["./index.html"],
+# content: ["./src/**/*.{html,js,jsx}""],
 # theme: {
 #   extend: {},
 # },
