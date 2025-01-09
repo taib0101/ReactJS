@@ -54,3 +54,6 @@ $ }
 |-----------------------------------------------------------------------
 
 * $ npm run tailwind
+
+
+For Vite + tailwind css see this link: https://tailwindcss.com/docs/guides/vite
