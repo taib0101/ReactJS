@@ -4,6 +4,16 @@
 * Install tailwind plugin on vs extension
 
 * $ npx tailwind init
+* goto tailwind.config.js , write below
+###################################
+# export default {
+# content: ["./index.html"],
+# theme: {
+#   extend: {},
+# },
+# plugins: [],
+#};
+####################################
 
 * create src and output directory. 
 * create file src/tailwind.css .
@@ -43,4 +53,4 @@ $ }
 |   </head>
 |-----------------------------------------------------------------------
 
-* $ npm run build
+* $ npm run tailwind
