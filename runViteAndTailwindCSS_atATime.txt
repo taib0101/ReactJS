@@ -3,6 +3,8 @@ $ npm install npm-run-all --save-dev
 
 ##########################################
 # "scripts": {
+#   "dev": "vite",
+#   "tailwind": "npx tailwind -i ./src/input.css -o ./output/input.css -w"
 #   "start": "npm-run-all --parallel tailwind dev"
 # }
 ############################################
